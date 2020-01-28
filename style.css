@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px){
+    @import url('https://fonts.googleapis.com/css?family=Amiri|Markazi+Text&display=swap');
+    *{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #ecf0f1;
+        overflow-x: hidden;
+    }
+    .menu{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        background-color: #ff4757;
+        color: white;
+        display: block;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .menu-bar{
+        display: none;
+        z-index: 1;
+    }
+    .menu-bar > a{
+        width: 100%;
+        text-align: center;
+        display: block;
+        font-size: 30px;
+        background-color: #2f3542;
+        font-family: 'Amiri', serif;
+        color: white;
+        text-decoration: none;
+    }
+    .menu-bar a:hover{
+        color: #ff4798;
+    }
